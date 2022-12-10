@@ -6,6 +6,7 @@ import Hello from "./component/Hello";
 import Title from "./component/Title";
 import MyName from "./component/MyName";
 import Mycount from "./component/Mycount";
+import Form from "./component/Form";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Title name="Mobile Developer" />
       <MyName />
       <Mycount/>
+      <Form/>
     </div>
   );
 }
