@@ -9,8 +9,9 @@ import Mycount from "./component/Mycount";
 import Form from "./component/Form";
 import Users from "./component/Users";
 import Event from "./component/Event";
-import Range from "./component/Range"
+import Range from "./component/Range";
 import Submit from "./component/Submit";
+import InputFocus from "./component/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -21,12 +22,13 @@ function App() {
       <Title name="Solodity Developer" />
       <Title name="Mobile Developer" />
       <MyName />
-      <Mycount/>
-      <Form/>
-      <Users/>
-      <Event/>
-      <Range/>
-      <Submit/>
+      <Mycount />
+      <Form />
+      <Users />
+      <Event />
+      <Range />
+      <Submit />
+      <InputFocus />
     </div>
   );
 }
